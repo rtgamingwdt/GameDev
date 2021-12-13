@@ -34,7 +34,7 @@ public class Settings {
   }
 
   public static boolean isResizable() {
-    return Boolean.parseBoolean(data.get("RESIZEABLE").toString());
+    return Boolean.parseBoolean(data.get("RESIZABLE").toString());
   }
 
   public static boolean isVisible() {
@@ -51,7 +51,7 @@ public class Settings {
   }
 
   public static void setScreenTitle(String title) {
-    data.put("SCREEN_TITLE", title)
+    data.put("SCREEN_TITLE", title);
   }
 
   public static void setResizable(Boolean value) {
